@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <title>FCC Weather App</title>
+  
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script  src="./index.js" defer></script>
+</head>
+<body>
+  
+  <main>
+    <div id="app">
+      <div id="pos-handler">
+        <div id="icons">
+          <div class="icon" id="weather-icon">
+          </div>
+          <label class="switch" id="c-to-f">
+            <div id="switch-labels">
+              <p>F</p>
+              <p>C</p>
+            </div>
+            <input class="switch-checkbox" type="checkbox"></input>
+            <span class="slider">
+            </span>
+          </label>
+        </div>
+        <div id="text">
+          <p id="location">City name, nation</p>
+          <p id="weather">temperature, weather</p>
+        </div>
+      </div>
+    </div>
+    <div id="credits">
+      <p>Weather Icons by <a href="https://codepen.io/ysajid/pen/wWEaZb">Yemin Sajid</a></p>
+    </div>
+  </main>
+  
+</body>
+</html>
